@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', 'IndexController@index');
+
+
+include_once("admin.php");
